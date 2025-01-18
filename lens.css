@@ -1,0 +1,333 @@
+@media(max-width: 600px){
+ body {
+  overflow-x: hidden !important;
+ }
+}
+
+.position {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    background-color: #fff !important;
+    z-index: 99 !important;
+}
+
+.position1 {
+  position: fixed !important;
+  top: 40px !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  z-index: 99 !important;
+}
+
+
+.container {
+  width:1400px !important;
+}
+
+/* do more section starts */
+.kart {
+    background-color: white;
+    padding: 3px 0px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  .kart ul.kl li {
+    font-size: 12px;
+    color: black;
+    margin-right: 25px;
+    padding-top: 6px
+    
+  }
+  
+  .kart ul li {
+    display: inline-block;
+   
+  }
+  
+  .kart ul.sub li i {
+    font-size: 8px;
+    color: black;
+    margin-right: 3px;
+  }
+  
+  .kart ul.social-links {
+    text-align: right;
+  }
+  
+  .social-links li{
+   float: right;
+  }
+  
+  .social-links li a {
+    display: inline-block;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: -36px;
+  }
+  /* do more section ends */
+
+
+
+/* wear the section starts */
+
+/* wear the section ends */
+
+
+ 
+  /* footer section starts */
+  .footer-d {
+    background-color: #000042;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-top: 3px solid rgba(250, 250, 250, 0.15);
+  }
+  
+.footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+.footer-col ul li a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+  }
+  
+footer {
+    background-color: #000042;
+    min-height: 100px;
+    border-top: 1px solid gray;
+  }
+  
+footer p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+  
+.ivm a {
+    color: #2a60af;
+  }
+  /* footer section ends */
+  
+  /* lenskart section starts */
+  .shine .li {
+    color: black; 
+    text-decoration: none; 
+    margin-left: 87px; 
+    font-size: 14px;
+    text-align: right;
+  }
+  /* lenskart section ends */
+  
+  
+  
+  /* eyeglasses starts */
+  .post-slide {
+    background: #fff;
+    margin: 20px 15px 20px;
+    border-radius: 15px;
+    padding-top: 1px;
+  }
+  
+  .post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+  
+  .post-slide .post-imge {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+  
+  .post-slide .post-img img {
+    width: 100%;
+    height: auto;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+  }
+  
+  .post-slide .post-imge img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-slide:hover .post-img img {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .post-slide .over-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.50s linear;
+  }
+  
+  .post-slide:hover .over-layer {
+    opacity: 1;
+    text-decoration: none;
+  }
+  
+  .post-slide .over-layer i {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  .post-slide .post-content {
+    background: #fff;
+    padding: 2px 20px 40px;
+    border-radius: 15px;
+  }
+  
+  .post-slide .post-title a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .post-slide .post-title a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .post-slide .post-description {
+    line-height: 24px;
+    color: #808080;
+    margin-bottom: 25px;
+  }
+  
+  .post-slide .post-date {
+    color: #a9a9a9;
+    font-size: 14px;
+  }
+  
+  .post-slide .post-date i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #CFDACE;
+  }
+  
+  .car .owl-nav button.owl-next,
+  .car .owl-nav button.owl-prev {
+    top: 10.8rem !important;
+  }
+  
+  .caro .owl-nav button.owl-next,
+  .caro .owl-nav button.owl-prev {
+    margin-top: 7rem;
+  }
+  
+  .post-title a {
+    text-decoration: none;
+    text-align: center;
+  }
+  /* eyeglasses ends */
+  
+  
+/* meet our happy customers starts */
+.background {
+    background:#fff092;
+    padding: 30px;
+}
+
+.pt h3 {
+    text-align: center;
+    color: black;
+    padding-top: 80px;   
+    font-weight: 500; 
+  }
+/* meet our happy customers ends */
+
+
+
+/* free progressive lenses starts */
+.line1 {
+  text-align: center;
+  font-size: 32px; 
+  font-weight: 480;
+  margin-top: 47px; 
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+}
+
+.line1::before {
+  content: '';
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  width: 35%;
+  height: 2px;
+  background-color: #dcd7d7;
+}
+
+.line1::after {
+  content: '';
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  width: 35%;
+  height: 2px;
+  background-color: #dcd7d7;
+}
+
+
+.line2 {
+  text-align: center;
+  font-size: 32px; 
+  font-weight: 480;
+  margin-top: 47px; 
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+}
+
+.line2::before {
+  content: '';
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  width: 35%;
+  height: 2px;
+  background-color: #dcd7d7;
+}
+
+.line2::after {
+  content: '';
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  width: 35%;
+  height: 2px;
+  background-color: #dcd7d7;
+}
+
+/* free progressive lenses ends */
+  
